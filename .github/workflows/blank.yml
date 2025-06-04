@@ -6,17 +6,13 @@ jobs:
     runs-on: arc-runner-org # label of org runner
     steps: 
       - run: echo "Hello build!1"
+
 jobs:
-  build: 
-    runs-on: arc-runner-org # label of org runner
-    steps: 
-      - run: echo "Hello build2"
-jobs:
-  build: 
+  build3: 
     runs-on: arc-runner-org # label of org runner
     steps: 
       - run: echo "Hello build3"
-jobs:
+jobs4:
   build: 
     runs-on: arc-runner-org # label of org runner
     steps: 
