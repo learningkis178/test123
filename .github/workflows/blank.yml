@@ -2,21 +2,21 @@ on:
   push:
 
 jobs:
-  build: 
-    runs-on: arc-runner-org # label of org runner
-    steps: 
+  build:
+    runs-on: arc-runner-org
+    steps:
       - run: echo "Hello build!1"
 
-jobs1:
-  build3: 
-    runs-on: arc-runner-org # label of org runner
-    steps: 
+  build3:
+    runs-on: arc-runner-org
+    steps:
       - run: echo "Hello build3"
-jobs2:
-  build: 
-    runs-on: arc-runner-org # label of org runner
-    steps: 
-      - run: echo "Hello build4
+
+  build4:
+    runs-on: arc-runner-org
+    steps:
+      - run: echo "Hello build4"
+
     
-      - run: echo "Hello build5"      
+         
       
