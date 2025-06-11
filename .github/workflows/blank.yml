@@ -3,17 +3,17 @@ on:
 
 jobs:
   build:
-    runs-on: arc-runner-org
+    runs-on: runnersscaleset
     steps:
       - run: echo "Hello build!1"
 
   build3:
-    runs-on: arc-runner-org
+    runs-on: runnersscaleset
     steps:
       - run: echo "Hello build3"
 
   build4:
-    runs-on: arc-runner-org
+    runs-on: runnersscaleset
     steps:
       - run: echo "Hello build4"
 
