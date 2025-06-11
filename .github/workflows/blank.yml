@@ -3,17 +3,17 @@ on:
 
 jobs:
   build:
-    runs-on: runnersscaleset
+    runs-on: ubuntu-20-04-16g
     steps:
       - run: echo "Hello build!1"
 
   build3:
-    runs-on: runnersscaleset
+    runs-on: ubuntu-20-04-16g
     steps:
       - run: echo "Hello build3"
 
   build4:
-    runs-on: runnersscaleset
+    runs-on: ubuntu-20-04-16g
     steps:
       - run: echo "Hello build4"
 
